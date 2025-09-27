@@ -7,6 +7,8 @@ def main():
     op.mostrarResultado()
     
     #Llamar a la función raíz cuadrada
+    op.raiz()
+    op.mostrarResultado()
 
 if __name__ == "__main__":
     main()
