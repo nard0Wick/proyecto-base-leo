@@ -25,5 +25,11 @@ class Operaciones:
     def elevarPotencia(self):
         self.resultado = "El resultado de elevar " + str(self.num1) + " a la potencia: " + str(self.num2) + " es: " + str(self.num1**self.num2)
 
+
+
+    def raiz(self):
+        self.resultado = "La Raíz de " + str(self.num1) + " √ " + str(self.num2) + " es igula a " + str(self.num2 ** (1/self.num1))
+
+
     def mostrarResultado(self):
         print(self.resultado)
